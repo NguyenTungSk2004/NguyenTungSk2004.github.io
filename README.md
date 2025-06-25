@@ -1,9 +1,9 @@
-# 🌟 GitHub Portfolio – Dự án AI, Extension Chrome, .NET Architecture
+# 🌟 GitHub Portfolio
 
 **Chào mừng đến với GitHub Pages của [NguyenTungSk2004](https://github.com/NguyenTungSk2004)**  
-Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở rộng cho Chrome, công cụ hỗ trợ ChatGPT, trí tuệ nhân tạo (AI), và kiến trúc phần mềm .NET hiện đại.
+Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở rộng trình duyệt (Chrome Extension), công cụ hỗ trợ ChatGPT, ứng dụng AI học máy và mẫu kiến trúc phần mềm .NET hiện đại.
 
-🔗 **Truy cập trực tiếp portfolio tại:**  
+🔗 **Xem Portfolio tại:**  
 👉 [https://nguyentungsk2004.github.io/](https://nguyentungsk2004.github.io/)
 
 ---
@@ -11,28 +11,28 @@ Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở r�
 ## 🚀 Dự án nổi bật
 
 ### [🔖 AI TOC Marker](https://github.com/NguyenTungSk2004/AI-TOC-Marker)
-> Tiện ích Chrome giúp đánh dấu tiêu đề (heading) trong hội thoại ChatGPT để dễ dàng điều hướng nội dung dài.
+> Tiện ích mở rộng dành cho ChatGPT giúp đánh dấu tiêu đề (heading) và hỗ trợ điều hướng trong các cuộc hội thoại dài – công cụ lý tưởng cho người dùng AI, học tập và nghiên cứu nội dung chuyên sâu.
 
-- 🌍 [Trang giới thiệu / Landing Page](https://nguyentungsk2004.github.io/AI-TOC-Marker/)
-- 🔧 Sử dụng HTML, CSS, JavaScript thuần
+- 🌍 [Landing Page – Giới thiệu & Tải về](https://nguyentungsk2004.github.io/AI-TOC-Marker/)
+- 🔧 Công nghệ sử dụng: HTML, CSS, JavaScript thuần
 
 ---
 
 ### [🏗️ Clean Architecture (.NET)](https://github.com/NguyenTungSk2004/CleanArchitecture)
-> Mẫu kiến trúc phần mềm hiện đại theo chuẩn DDD + CQRS + MediatR.
+> Mẫu kiến trúc phần mềm .NET theo hướng Domain-Driven Design (DDD), CQRS, MediatR – nền tảng vững chắc cho các hệ thống doanh nghiệp quy mô trung bình đến lớn.
 
-- ✅ Áp dụng thực tiễn cho hệ thống quy mô vừa và lớn
-- 💻 Công nghệ: ASP.NET Core, MediatR, FluentValidation
+- ✅ Phù hợp cho dự án ASP.NET Core thực tế
+- 💻 Tích hợp MediatR, FluentValidation, cấu trúc module rõ ràng
 
 ---
 
 ### [🤖 AI CoVay](https://github.com/NguyenTungSk2004/AI_CoVay)
-> Dự án học thuật về trí tuệ nhân tạo, xử lý ngôn ngữ và học máy (Machine Learning).
+> Dự án học thuật về trí tuệ nhân tạo, xử lý ngôn ngữ tự nhiên (NLP) và các thuật toán học máy (machine learning) phổ biến.
 
 ---
 
 ### [🏫 Quản lý Trung Tâm Tiếng Anh](https://github.com/NguyenTungSk2004/QuanliTrungTamTA)
-> Hệ thống quản lý học viên, lịch học, giáo viên, báo cáo – ứng dụng thực tế dành cho trung tâm giáo dục.
+> Hệ thống hỗ trợ quản lý học viên, lịch học, giáo viên và báo cáo hoạt động – mô hình ứng dụng dành cho trung tâm giáo dục tiếng Anh.
 
 ---
 
@@ -40,14 +40,14 @@ Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở r�
 
 - 📬 Email: [nguyentungsk2004@gmail.com](mailto:nguyentungsk2004@gmail.com)
 - 🌐 Linktree: [linktr.ee/nguyentungsk](https://linktr.ee/nguyentungsk)
-- 🧠 Xem toàn bộ repo tại: [NguyenTungSk2004 GitHub](https://github.com/NguyenTungSk2004?tab=repositories)
+- 🧠 Xem toàn bộ repo: [NguyenTungSk2004 GitHub](https://github.com/NguyenTungSk2004?tab=repositories)
 
 ---
 
 ## 📄 Giấy phép & Mã nguồn
 
-Tất cả dự án đều sử dụng giấy phép mã nguồn mở tương ứng trong từng repository. Bạn có thể fork, chỉnh sửa hoặc đóng góp tùy điều kiện cho phép.
+Tất cả dự án đều sử dụng giấy phép mã nguồn mở tương ứng trong từng repository. Bạn có thể fork, tùy biến hoặc đóng góp theo quy định của từng license.
 
 ---
 
-> ⭐ Nếu bạn thấy hữu ích, hãy **Star repo** và **Follow** mình để cập nhật thêm nhiều dự án mới nhé!
+> ⭐ Nếu thấy hữu ích, hãy **Star repo** và **Follow mình** để cập nhật các dự án tiếp theo về Chrome Extension, AI Tool, Clean Architecture và các công nghệ mới nhất.
