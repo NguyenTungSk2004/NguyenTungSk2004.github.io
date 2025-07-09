@@ -26,13 +26,8 @@ Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở r�
 
 ---
 
-### [🤖 AI CoVay](https://github.com/NguyenTungSk2004/AI_CoVay)
-> Dự án học thuật về trí tuệ nhân tạo, xử lý ngôn ngữ tự nhiên (NLP) và các thuật toán học máy (machine learning) phổ biến.
-
----
-
 ### [🏫 Quản lý Trung Tâm Tiếng Anh](https://github.com/NguyenTungSk2004/QuanliTrungTamTA)
-> Hệ thống hỗ trợ quản lý học viên, lịch học, giáo viên và báo cáo hoạt động – mô hình ứng dụng dành cho trung tâm giáo dục tiếng Anh.
+> Nền tảng quản lý trung tâm tiếng Anh toàn diện: hỗ trợ quản lý học sinh, giáo viên, khóa học, mua bán khóa học trực tuyến, thống kê doanh số, doanh thu, số lượng bán hàng và đánh giá chất lượng học viên. Giải pháp tối ưu giúp nâng cao hiệu quả vận hành và phát triển trung tâm giáo dục.
 
 ---
 

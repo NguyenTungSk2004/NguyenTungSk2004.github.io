@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://nguyentungsk2004.github.io/sitemap.xml
+Sitemap: https://nguyentungsk2004.github.io/AI-TOC-Marker/sitemap.xml
+
+# Dự án 1: Trang chính
+Allow: /
+
+# Dự án 2: AI TOC Marker
+Allow: /AI-TOC-Marker/
+Allow: /AI-TOC-Marker/assets/
+Allow: /AI-TOC-Marker/assets/img/
+Allow: /AI-TOC-Marker/assets/css/
+Allow: /AI-TOC-Marker/assets/js/
+Allow: /AI-TOC-Marker/assets/logo/
+Allow: /AI-TOC-Marker/assets/gif/
+Allow: /AI-TOC-Marker/page/guide/
+
+# Block thư mục dev chung
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /*.log$
+Disallow: /*.tmp$
+
+# Tối ưu crawl
+Crawl-delay: 1

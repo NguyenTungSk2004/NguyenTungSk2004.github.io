@@ -5,27 +5,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://github.com/NguyenTungSk2004/AI-TOC-Marker</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://nguyentungsk2004.github.io/AI-TOC-Marker/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://github.com/NguyenTungSk2004/CleanArchitecture</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://github.com/NguyenTungSk2004/AI_CoVay</loc>
+    <loc>https://nguyentungsk2004.github.io/AI-TOC-Marker/page/guide/</loc>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://github.com/NguyenTungSk2004/QuanliTrungTamTA</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://github.com/NguyenTungSk2004?tab=repositories</loc>
-    <priority>0.6</priority>
   </url>
 </urlset>
