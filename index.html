@@ -4,75 +4,397 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <meta name="description" content="Trang GitHub Portfolio chính thức của NguyenTungSk2004: lập trình viên mã nguồn mở, Chrome Extension, ChatGPT tools, AI học máy và dự án .NET Clean Architecture." />
-  <meta name="keywords" content="NguyenTungSk2004, Nguyen Tung SK, GitHub developer, lập trình viên Việt Nam, ChatGPT extension, Chrome Plugin AI, Clean Architecture .NET, học máy, AI TOC Marker, open source, GitHub portfolio" />
-  <meta property="og:title" content="Nguyen Tung SK – GitHub Portfolio | Open Source, AI, Chrome Extension" />
-  <meta property="og:description" content="Khám phá dự án GitHub nổi bật của NguyenTungSk2004: tiện ích ChatGPT, AI học máy, kiến trúc phần mềm .NET và hơn thế nữa." />
+  <meta name="description" content="Nguyễn Tùng - Lập trình viên Web Full-stack với 1 năm kinh nghiệm. Chuyên về C#, TypeScript, Clean Architecture, Web API, Python AI. Đang phát triển Chrome Extension và CRM .NET." />
+  <meta name="keywords" content="Nguyễn Tùng, NguyenTungSk2004, web developer, lập trình viên, C#, TypeScript, Clean Architecture, Web API, Python, AI, Chrome Extension, CRM .NET, full-stack developer" />
+  <meta property="og:title" content="Nguyễn Tùng - Web Developer | Full-stack Developer" />
+  <meta property="og:description" content="Lập trình viên Web Full-stack với 1 năm kinh nghiệm. Chuyên về C#, TypeScript, Clean Architecture, Web API, Python AI và Chrome Extension." />
   <meta property="og:url" content="https://nguyentungsk2004.github.io/" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/134217032?v=4" />
-  <meta property="og:site_name" content="Nguyen Tung SK GitHub Profile" />
+  <meta property="og:site_name" content="Nguyễn Tùng Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nguyễn Tùng - Web Developer" />
+  <meta name="twitter:description" content="Lập trình viên Web Full-stack với 1 năm kinh nghiệm" />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/134217032?v=4" />
+  
   <link rel="canonical" href="https://nguyentungsk2004.github.io/" />
+  <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/134217032?v=4" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <title>Nguyen Tung SK – GitHub Portfolio | Open Source, AI, .NET Dev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <title>Nguyễn Tùng - Web Developer | Full-stack Developer với C#, TypeScript, Python</title>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nguyễn Tùng",
+    "alternateName": "NguyenTungSk2004",
+    "url": "https://nguyentungsk2004.github.io/",
+    "image": "https://avatars.githubusercontent.com/u/134217032?v=4",
+    "jobTitle": "Web Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelancer"
+    },
+    "knowsAbout": ["C#", "TypeScript", "Clean Architecture", "Web API", "Python", "AI", "Chrome Extension"],
+    "email": "nguyentungsk2004@gmail.com",
+    "sameAs": [
+      "https://github.com/NguyenTungSk2004",
+      "https://linktr.ee/nguyentungsk"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header>
-    <a href="https://github.com/NguyenTungSk2004" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/134217032?v=4" alt="Nguyen Tung SK Avatar" class="avatar" />
-    </a>
-    <h1>Nguyen Tung SK – GitHub Developer</h1>
-    <p class="subtitle">Portfolio mã nguồn mở: tiện ích ChatGPT, AI học máy, .NET, Chrome Extension</p>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">SK</a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+        <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+        <li><a href="#projects" class="nav-link">Dự án</a></li>
+        <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Xin chào, tôi là <span class="highlight">Nguyễn Tùng SK</span>
+          </h1>
+          <p class="hero-subtitle">Web Developer Full-stack</p>
+          <p class="hero-description">
+            Lập trình viên với 1 năm kinh nghiệm, chuyên về <strong>C#</strong>, <strong>TypeScript</strong>, 
+            <strong>Clean Architecture</strong> và <strong>Web API</strong>. Đam mê phát triển ứng dụng web hiện đại 
+            và các giải pháp AI thông minh.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Xem dự án</a>
+            <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://avatars.githubusercontent.com/u/134217032?v=4" alt="Nguyễn Tùng - Web Developer" class="profile-image" />
+          <div class="image-backdrop"></div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section class="projects">
-      <h2>📌 Dự án nổi bật</h2>
-      <div class="card-grid">
-        <a href="https://github.com/NguyenTungSk2004/AI-TOC-Marker" class="card" target="_blank" rel="noopener">
-          <h3>AI TOC Marker</h3>
-          <p>Tiện ích đánh dấu heading trong hội thoại ChatGPT. Dễ điều hướng và sử dụng.</p>
-        </a>
-        <a href="https://github.com/NguyenTungSk2004/CleanArchitecture" class="card" target="_blank" rel="noopener">
-          <h3>Clean Architecture</h3>
-          <p>Kiến trúc phần mềm .NET hiện đại. Áp dụng DDD, MediatR, CQRS chuẩn chỉnh.</p>
-        </a>
-        <a href="https://github.com/NguyenTungSk2004/AI_CoVay" class="card" target="_blank" rel="noopener">
-          <h3>AI CoVay</h3>
-          <p>Hệ thống AI phân tích ngôn ngữ tự nhiên, thuật toán học máy và xử lý dữ liệu.</p>
-        </a>
-        <a href="https://github.com/NguyenTungSk2004/QuanliTrungTamTA" class="card" target="_blank" rel="noopener">
-          <h3>Quản lý Trung Tâm TA</h3>
-          <p>Phần mềm quản lý trung tâm tiếng Anh: học viên, giảng viên, lịch học, báo cáo.</p>
-        </a>
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Về tôi</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Tôi là lập trình viên <strong>Web Full-stack</strong> với <strong>1 năm kinh nghiệm</strong>, chuyên về <strong>Clean Architecture</strong>, tối ưu <strong>SEO</strong> và phát triển <strong>Web API</strong> hiệu quả.
+              Phương châm <em>"Sáng từ gốc, khác biệt từ tâm"</em> là kim chỉ nam trong việc xây dựng các giải pháp chất lượng và bền vững.
+            </p>
+            <p>
+              Hiện tại, tôi đang tham gia phát triển hệ thống <strong>CRM nội bộ</strong> sử dụng <strong>.NET</strong> và <strong>Angular</strong>, đồng thời xây dựng tiện ích <strong>Chrome Extension</strong> cá nhân nhằm nâng cao trải nghiệm người dùng trên nền tảng AI.
+            </p>
+            <p>
+              Trước đó, tôi từng là <strong>giảng viên lập trình C++</strong> tại một trung tâm đào tạo công nghệ, giảng dạy cho học sinh cấp 2 trong suốt <strong>6 tháng</strong>, giúp các em tiếp cận tư duy thuật toán và nền tảng lập trình căn bản.
+              Tôi cũng từng đạt <strong>giải Nhì</strong> trong cuộc thi <strong>lập trình thuật toán cấp thành phố</strong> khi còn học cấp 3 – một dấu mốc quan trọng nuôi dưỡng niềm đam mê với lập trình và giáo dục.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <span class="stat-number">1+</span>
+                <span class="stat-label">Năm kinh nghiệm</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Dự án hoàn thành</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Ngôn ngữ lập trình</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="pages">
-      <h2>🌐 Trang giới thiệu</h2>
-      <div class="card-grid">
-        <a href="https://nguyentungsk2004.github.io/AI-TOC-Marker/" class="card" target="_blank" rel="noopener">
-          <h3>Demo AI TOC Marker</h3>
-          <p>Trang minh họa thực tế tính năng tiện ích mở rộng ChatGPT TOC Marker.</p>
-        </a>
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Kỹ năng & Công nghệ</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Angular</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Rxjs</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-items">
+              <span class="skill-tag">ASP.NET Core</span>
+              <span class="skill-tag">.NET</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Entity Framework</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Database</h3>
+            <div class="skill-items">
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Ngôn ngữ lập trình</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">C#</span>
+              <span class="skill-tag">C/C++</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Khác</h3>
+            <div class="skill-items">
+              <span class="skill-tag">AI</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">Chrome Extensions</span>
+              <span class="skill-tag">Web API</span>
+              <span class="skill-tag">SEO</span>
+              <span class="skill-tag">Clean Architecture</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="connect">
-      <h2>🔗 Kết nối & hồ sơ</h2>
-      <ul>
-        <li><a href="mailto:nguyentungsk2004@gmail.com">📧 Email: nguyentungsk2004@gmail.com</a></li>
-        <li><a href="https://linktr.ee/nguyentungsk" target="_blank">🌐 Linktree – Tổng hợp mạng xã hội</a></li>
-        <li><a href="https://github.com/NguyenTungSk2004?tab=repositories" target="_blank">📂 Toàn bộ repo trên GitHub</a></li>
-      </ul>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Dự án cá nhân</h2>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://nguyentungsk2004.github.io/AI-TOC-Marker/" target="_blank" rel="noopener" class="project-link">
+                    <span>Landing Page</span>
+                  </a>
+                  <a href="https://github.com/NguyenTungSk2004/AI-TOC-Marker" target="_blank" rel="noopener" class="project-link">
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>AI TOC Marker</h3>
+              <p>Chrome Extension giúp đánh dấu và điều hướng dễ dàng trong các cuộc hội thoại ChatGPT dài.</p>
+              <div class="project-tech">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Chrome Web API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/NguyenTungSk2004/CleanArchitecture" target="_blank" rel="noopener" class="project-link">
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Clean Architecture .NET</h3>
+              <p>Template dự án .NET áp dụng Clean Architecture với DDD, MediatR, CQRS và các best practices hiện đại.</p>
+              <div class="project-tech">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">.NET</span>
+                <span class="tech-tag">Clean Architecture</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://gitlab.com/SkTuHocLapTrinh/quizielts" target="_blank" rel="noopener" class="project-link">
+                    <span>GitLab</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Quiz IELTS - Ứng dụng thi trắc nghiệm</h3>
+              <p>Hệ thống thi trắc nghiệm tiếng Anh được phát triển bằng Python với giao diện thân thiện và tính năng đánh giá tự động.</p>
+              <div class="project-tech">
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">ReactJS</span>
+              </div>
+            </div>
+          </article>
+  
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://gitlab.com/SkTuHocLapTrinh/rio" target="_blank" rel="noopener" class="project-link">
+                    <span>GitLab</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>RIO - AI nhận diện và xóa đối tượng</h3>
+              <p>Ứng dụng AI sử dụng machine learning để nhận diện và xóa các đối tượng trong ảnh một cách tự động và chính xác.</p>
+              <div class="project-tech">
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">ASP.NET</span>
+                <span class="tech-tag">Computer Vision</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="enterprise-projects">
+      <div class="container">
+        <h2 class="section-title">Kinh nghiệm doanh nghiệp</h2>
+        <div class="projects-grid">
+          <article class="project-card enterprise">
+            <div class="project-content">
+              <h3>CRM System .NET & Angular</h3>
+              <p class="project-placeholder">
+                [Mô tả chi tiết về vai trò và công việc của bạn trong dự án CRM - vui lòng cập nhật nội dung này]
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">.NET Core</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Entity Framework</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Liên hệ với tôi</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p class="contact-description">
+              Bạn có dự án thú vị hoặc muốn hợp tác? Hãy liên hệ với tôi! 
+              Tôi luôn sẵn sàng thảo luận về các cơ hội mới.
+            </p>
+            <div class="contact-methods">
+              <a href="mailto:nguyentungsk2004@gmail.com" class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">nguyentungsk2004@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://github.com/NguyenTungSk2004" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-icon">🐙</div>
+                <div class="contact-details">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-value">NguyenTungSk2004</span>
+                </div>
+              </a>
+              <a href="https://gitlab.com/NguyenTungSk2004" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-icon">🦊</div>
+                <div class="contact-details">
+                  <span class="contact-label">GitLab</span>
+                  <span class="contact-value">NguyenTungSk2004</span>
+                </div>
+              </a>
+              <a href="https://linktr.ee/nguyentungsk" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-icon">🔗</div>
+                <div class="contact-details">
+                  <span class="contact-label">Linktree</span>
+                  <span class="contact-value">Tất cả mạng xã hội</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 – NguyenTungSk2004. Mọi quyền được bảo lưu.</p>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Nguyễn Tùng. Tất cả quyền được bảo lưu.</p>
+        <p class="footer-note">Được xây dựng với ❤️ và TypeScript</p>
+      </div>
+    </div>
   </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }));
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
 </body>
 </html>

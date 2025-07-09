@@ -1,48 +1,111 @@
-# 🌟 GitHub Portfolio
+# Nguyễn Tùng - Portfolio Website
 
-**Chào mừng đến với GitHub Pages của [NguyenTungSk2004](https://github.com/NguyenTungSk2004)**  
-Tổng hợp các dự án mã nguồn mở chất lượng: tiện ích mở rộng trình duyệt (Chrome Extension), công cụ hỗ trợ ChatGPT, ứng dụng AI học máy và mẫu kiến trúc phần mềm .NET hiện đại.
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnguyentungsk2004.github.io)](https://nguyentungsk2004.github.io)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue)](https://nguyentungsk2004.github.io)
+[![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-green)](https://nguyentungsk2004.github.io)
 
-🔗 **Xem Portfolio tại:**  
-👉 [https://nguyentungsk2004.github.io/](https://nguyentungsk2004.github.io/)
+## 🚀 Giới thiệu
+
+Chào mừng đến với portfolio website của tôi! Tôi là **Nguyễn Tùng**, một lập trình viên web full-stack với 1 năm kinh nghiệm, chuyên về **C#**, **TypeScript**, **Clean Architecture** và **Web API**.
+
+## 🛠️ Công nghệ sử dụng
+
+### Frontend
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling với CSS Grid & Flexbox
+- **JavaScript** - Interactive features
+- **TypeScript** - Type-safe development
+
+### Backend & Frameworks
+- **C#** & **.NET Core** - Backend development
+- **ASP.NET Core** - Web API development
+- **Entity Framework** - ORM
+- **Clean Architecture** - Software architecture pattern
+
+### Databases
+- **SQL Server** - Primary database
+- **MySQL** - Alternative database
+- **PostgreSQL** - Advanced database features
+
+### Tools & Others
+- **Python** - AI/ML projects
+- **Chrome Extensions** - Browser extension development
+- **Git** - Version control
+- **GitHub Pages** - Hosting
+
+## 📊 Dự án nổi bật
+
+### 🏆 Featured Projects
+
+1. **[Quiz IELTS](https://gitlab.com/SkTuHocLapTrinh/quizielts)** - Ứng dụng thi trắc nghiệm tiếng Anh
+   - Công nghệ: Python, Web Development
+   - Tính năng: Hệ thống thi trắc nghiệm với đánh giá tự động
+
+2. **[RIO - AI Object Detection](https://gitlab.com/SkTuHocLapTrinh/rio)** - AI nhận diện và xóa đối tượng
+   - Công nghệ: Python, AI/ML, Computer Vision
+   - Tính năng: Nhận diện và xóa đối tượng trong ảnh tự động
+
+### 🔧 Development Projects
+
+3. **[AI TOC Marker](https://github.com/NguyenTungSk2004/AI-TOC-Marker)** - Chrome Extension
+   - Công nghệ: TypeScript, Chrome Extension API
+   - Tính năng: Đánh dấu và điều hướng trong ChatGPT
+
+4. **[Clean Architecture .NET](https://github.com/NguyenTungSk2004/CleanArchitecture)** - Template dự án
+   - Công nghệ: C#, .NET, DDD, MediatR, CQRS
+   - Tính năng: Template áp dụng best practices hiện đại
+
+### 🚧 Đang phát triển
+
+- **CRM .NET** - Hệ thống quản lý khách hàng với .NET Core
+- **Chrome Extension** - Tiện ích mở rộng với TypeScript
+
+## 🎯 Kỹ năng chuyên môn
+
+- **Web Development**: Full-stack development với modern technologies
+- **Clean Architecture**: Áp dụng DDD, SOLID principles
+- **API Development**: RESTful APIs với ASP.NET Core
+- **Database Design**: SQL Server, MySQL, PostgreSQL
+- **AI/ML**: Python-based machine learning projects
+- **SEO Optimization**: Technical SEO và performance optimization
+
+## 📈 SEO & Performance
+
+Website được tối ưu hóa cho:
+- ✅ **Core Web Vitals** - Performance metrics
+- ✅ **Structured Data** - Schema.org markup
+- ✅ **Meta Tags** - Open Graph & Twitter Cards
+- ✅ **Sitemap** - XML sitemap for search engines
+- ✅ **Robots.txt** - Search engine guidelines
+- ✅ **Mobile-First** - Responsive design
+- ✅ **Accessibility** - WCAG compliance
+
+## 🌐 Live Website
+
+🔗 **[Xem Portfolio](https://nguyentungsk2004.github.io)**
+
+## 📞 Liên hệ
+
+- 📧 **Email**: [nguyentungsk2004@gmail.com](mailto:nguyentungsk2004@gmail.com)
+- 🐙 **GitHub**: [@NguyenTungSk2004](https://github.com/NguyenTungSk2004)
+- 🔗 **Linktree**: [linktr.ee/nguyentungsk](https://linktr.ee/nguyentungsk)
+
+## 🏗️ Cấu trúc dự án
+
+```
+Portfolio/
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet
+├── sitemap.xml         # SEO sitemap
+├── robots.txt          # Search engine directives
+├── README.md           # Project documentation
+└── google583580429c7a430e.html  # Google Search Console verification
+```
+
+## 📄 License
+
+© 2025 Nguyễn Tùng. All rights reserved.
 
 ---
 
-## 🚀 Dự án nổi bật
-
-### [🔖 AI TOC Marker](https://github.com/NguyenTungSk2004/AI-TOC-Marker)
-> Tiện ích mở rộng dành cho ChatGPT giúp đánh dấu tiêu đề (heading) và hỗ trợ điều hướng trong các cuộc hội thoại dài – công cụ lý tưởng cho người dùng AI, học tập và nghiên cứu nội dung chuyên sâu.
-
-- 🌍 [Landing Page – Giới thiệu & Tải về](https://nguyentungsk2004.github.io/AI-TOC-Marker/)
-- 🔧 Công nghệ sử dụng: HTML, CSS, JavaScript thuần
-
----
-
-### [🏗️ Clean Architecture (.NET)](https://github.com/NguyenTungSk2004/CleanArchitecture)
-> Mẫu kiến trúc phần mềm .NET theo hướng Domain-Driven Design (DDD), CQRS, MediatR – nền tảng vững chắc cho các hệ thống doanh nghiệp quy mô trung bình đến lớn.
-
-- ✅ Phù hợp cho dự án ASP.NET Core thực tế
-- 💻 Tích hợp MediatR, FluentValidation, cấu trúc module rõ ràng
-
----
-
-### [🏫 Quản lý Trung Tâm Tiếng Anh](https://github.com/NguyenTungSk2004/QuanliTrungTamTA)
-> Nền tảng quản lý trung tâm tiếng Anh toàn diện: hỗ trợ quản lý học sinh, giáo viên, khóa học, mua bán khóa học trực tuyến, thống kê doanh số, doanh thu, số lượng bán hàng và đánh giá chất lượng học viên. Giải pháp tối ưu giúp nâng cao hiệu quả vận hành và phát triển trung tâm giáo dục.
-
----
-
-## 🌐 Kết nối & Liên hệ
-
-- 📬 Email: [nguyentungsk2004@gmail.com](mailto:nguyentungsk2004@gmail.com)
-- 🌐 Linktree: [linktr.ee/nguyentungsk](https://linktr.ee/nguyentungsk)
-- 🧠 Xem toàn bộ repo: [NguyenTungSk2004 GitHub](https://github.com/NguyenTungSk2004?tab=repositories)
-
----
-
-## 📄 Giấy phép & Mã nguồn
-
-Tất cả dự án đều sử dụng giấy phép mã nguồn mở tương ứng trong từng repository. Bạn có thể fork, tùy biến hoặc đóng góp theo quy định của từng license.
-
----
-
-> ⭐ Nếu thấy hữu ích, hãy **Star repo** và **Follow mình** để cập nhật các dự án tiếp theo về Chrome Extension, AI Tool, Clean Architecture và các công nghệ mới nhất.
+*Được xây dựng với ❤️ và TypeScript*
