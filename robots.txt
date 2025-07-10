@@ -3,24 +3,7 @@ Allow: /
 
 # Sitemap
 Sitemap: https://nguyentungsk2004.github.io/sitemap.xml
+Sitemap: https://nguyentungsk2004.github.io/AI-TOC-Marker/sitemap.xml
 
-# Crawl-delay for polite crawling
+# Crawl-delay để tránh spam server
 Crawl-delay: 1
-
-# Block common bot directories (not applicable for GitHub Pages but good practice)
-Disallow: /assets/
-Disallow: /.git/
-Disallow: /node_modules/
-
-# Allow all search engines to access the main content
-Allow: /index.html
-Allow: /style.css
-Allow: /*.html
-Allow: /*.css
-Allow: /*.js
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.gif
-Allow: /*.svg
-Allow: /*.webp
